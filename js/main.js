@@ -15,3 +15,23 @@ console.log('js is running');
 // 6. An array with objects and strings.  An array containing objects for each person.  Each object will have a name, location for strings and array
 // for a list of favorite TV shows.
 
+const rainArr = [
+    'red',
+    'orange',
+    'yellow',
+    'green',
+    'blue',
+    'indigo',
+    'violet'
+];
+
+console.log(rainArr[4]);
+
+const robbie = {
+    favoriteFood: 'pizza',
+    hobby: 'video games',
+    city: 'Denver',
+    favDataType: 'Objects'
+};
+
+console.log(robbie.hobby);
